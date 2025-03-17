@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Thecocktaildb Front-end Code Challenge
 
-## Getting Started
+This project is a cocktail search application that uses the [thecocktaildb API](https://www.thecocktaildb.com/api.php/) to retrieve and display random cocktails, search for specific cocktails and save favorite cocktails.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Users can display random cocktails on the home page
+- Users can click the refresh button to load a new set of 5 unique random cocktails
+- Users can search for a cocktail by name
+- Toggle cocktails to a favourites list
+- Users can view all available favourites in the favourites list
+- Implement responsive styling for mobile and desktop views
+- Added unit tests to ensure functionality
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node Js 21.7.1
+- NPM
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/surenshanaka/two-player-game.git
+   cd two-player-game
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies (if applicable):
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Run the application:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm run dev
+   ```
+
+4. Run the unit tests:
+
+   ```bash
+   npm run test
+   ```
+
+## Technologies Used
+
+- Next.js
+- Tailwind CSS
+- Jest - unit test
+- ESLint
+- Prettier
+- TypeScript
+
+## Future Improvements
+
+- Add more comments throughout the code to improve readability and maintainability
+- Integrate i18next for translations if required to ensuring multi language support
+- Replace the loading spinner with skeleton loaders for the cocktail cards to improve user experience during loading
+- Implement pagination for the favorites section if needed to manage large lists efficiently.
