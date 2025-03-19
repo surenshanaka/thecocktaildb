@@ -24,8 +24,8 @@ This project is a cocktail search application that uses the [thecocktaildb API](
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/surenshanaka/two-player-game.git
-   cd two-player-game
+   git clone https://github.com/surenshanaka/thecocktaildb.git
+   cd thecocktaildb
    ```
 
 2. Install dependencies (if applicable):
